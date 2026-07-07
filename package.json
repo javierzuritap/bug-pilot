@@ -1,0 +1,49 @@
+{
+  "name": "bugpilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BugPilot — an AI interviewer that turns a one-line bug description into a professional bug report.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "next": "15.5.18",
+    "react": "19.1.7",
+    "react-dom": "19.1.7",
+    "ai": "^4.0.0",
+    "@ai-sdk/anthropic": "^1.0.0",
+    "@ai-sdk/google": "^1.0.0",
+    "@ai-sdk/openai": "^1.0.0",
+    "react-hook-form": "^7.54.0",
+    "@hookform/resolvers": "^3.9.1",
+    "zod": "^3.24.1",
+    "framer-motion": "^11.13.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "lucide-react": "^0.469.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-scroll-area": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss-animate": "^1.0.7",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.5.18"
+  }
+}
