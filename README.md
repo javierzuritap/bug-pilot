@@ -172,4 +172,4 @@ No hardcoded question count for the real providers. The system prompt (`lib/prom
 
 ## License
 
-MIT — do whatever you'd like with it.
+MIT - do whatever you'd like with it.
