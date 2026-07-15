@@ -159,7 +159,7 @@ Demo mode plugs into the exact same pipeline: it's a `MockLanguageModelV1` whose
 
 ## How the interview actually ends
 
-No hardcoded question count for the real providers. The system prompt (`lib/prompts.ts`) tells the model to ask exactly one question per turn and call a `completeInterview` tool — whose parameters are the full bug report schema, the moment it has enough information. The frontend watches the stream for that tool call and jumps straight to the score dashboard.
+No hardcoded question count for the real providers. The system prompt (`lib/prompts.ts`) tells the model to ask exactly one question per turn and call a `completeInterview` tool - whose parameters are the full bug report schema, the moment it has enough information. The frontend watches the stream for that tool call and jumps straight to the score dashboard.
 
 ## Future improvements
 
